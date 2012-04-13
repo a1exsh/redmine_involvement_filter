@@ -1,0 +1,4 @@
+# English strings go here for Rails i18n
+en:
+  field_involvement: My involvement
+  text_involved: involved
