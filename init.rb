@@ -1,4 +1,5 @@
 require 'redmine'
+require 'dispatcher'
 
 Dispatcher.to_prepare do
   require_dependency 'query'
