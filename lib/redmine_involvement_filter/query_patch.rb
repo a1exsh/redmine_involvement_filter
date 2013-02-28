@@ -15,6 +15,7 @@ module RedmineInvolvementFilter
 
       if User.current.logged?
         @available_filters["involvement"] = {
+          :name => l('field_involvement'),
           :type => :list,
           :values => [[l(:text_involved), "1"]],
           :order => 4  # places it next to the Assignee filter
